@@ -1,0 +1,17 @@
+.product-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .add-new-product-wrapper {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .input-name-field {
+      width: 600px;
+      font-size: 14px;
+    }
+  }
+}
